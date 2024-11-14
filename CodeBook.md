@@ -1,5 +1,4 @@
 # Project Code Book
-
 This document serves as the code book for the project. It provides essential information on how to access the source data, execute the R script, and understand the variables and transformations applied in the process.
 
 ## How to Access the Data:
