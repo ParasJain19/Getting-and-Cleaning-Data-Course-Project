@@ -64,7 +64,6 @@ colnames(setWithActivityNames) <- gsub("BodyBody", "Body", colnames(setWithActiv
 tidySet <- setWithActivityNames %>%
   group_by(subjectID, activityID, activityType) %>%
   summarise_all(mean)
-
 # Writing second tidy data set into a txt file
 write.table(tidySet, "tidySet.txt", row.names = FALSE)
 
